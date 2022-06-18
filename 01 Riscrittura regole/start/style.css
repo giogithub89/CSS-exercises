@@ -1,0 +1,31 @@
+/*
+body {
+    background-color: #011212;
+}
+
+.ball {
+    width: 100px;
+    height: 100px;
+    background-color: #ff8800;
+    border-radius: 50px;
+}
+*/
+
+:root{
+    --backgroud-color: #011212;
+    --width: 100px;
+    --height: 100px;
+    --bg-color2: #ff8800;
+    --border-radius: 50px;
+
+}
+#body{
+    background-color: var(--backgroud-color);
+}
+#ball{
+    width: var(--width);
+    height: var(--height);
+    background-color: var(--bg-color2);
+    border-radius: var(--border-radius);
+}
+
