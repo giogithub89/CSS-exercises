@@ -1,0 +1,55 @@
+@media (min-withd:768px){
+    .box{
+        display: flex;
+    }
+}
+
+
+
+body{
+    height: 100vh;
+    padding-left: 2%;
+    
+}
+
+.box{
+    box-sizing: border-box;
+    
+    height: 100%;
+    width: 25%;
+    border-radius: 5px;
+    border: 1px solid gray;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    
+}
+
+.box div {
+    display: flex;
+    padding: 10px;
+    border-top: 1px solid gray ;
+}
+.box div:first-child{
+    border-top:none ;
+    
+    margin-bottom: 5%;
+}
+
+.box1 {
+    flex-grow: 4;
+}
+.box2 {
+    flex-grow: 2;
+}
+.box3 {
+    flex-grow: 1;
+}
+
+
+img{
+    width: 100%;
+
+}
+
+
