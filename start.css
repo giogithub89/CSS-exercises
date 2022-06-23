@@ -1,0 +1,33 @@
+body{
+    display: grid;
+    grid-template-columns: 3, 1fr;
+
+}
+#green{
+    height: 150px;
+    grid-column: 1/4;
+
+}
+
+#yellow{
+    height: 300px;
+    grid-column: 1/1;
+    
+
+}
+
+#blue{
+    grid-column: 3/3;
+    grid-row: 2/4;
+
+}
+#red{
+    
+    grid-column: 2/2;
+
+}
+#orange{
+    height: 150px;
+    grid-row: 3/3;
+    grid-column: 1/3;
+}
